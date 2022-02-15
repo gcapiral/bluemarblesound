@@ -1,0 +1,15 @@
+@font-face {
+    font-family: geFont;
+    src: url(fonts/GEInspiraSerif-Regular-v01.ttf);
+}
+
+* {
+    font-family: geFont;
+}
+
+[class*="col"] {
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+}
